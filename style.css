@@ -1,0 +1,24 @@
+.first{
+    color: red !important;
+    font-size: 20px;
+}
+.second{
+    color: orange;
+    font-size: 14px;
+}
+.third{
+    border: 1px solid black;
+    font-size: 40px;
+    background-color: pink;
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.monospace-font{
+    font-family: Lato
+}
+#my{
+    font-size: 50px !important;
+}
