@@ -1,0 +1,48 @@
+html, body{
+    margin: 0px;
+}
+#car, #second, #third, #fourth{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    animation: move-around 4s infinite;
+}
+#second{
+    animation-delay: 1s;
+}
+#third{
+    animation-delay: 2s;
+}
+#fourth{
+    animation-delay: 3s
+}
+
+@keyframes move-around{
+    0%{
+        background-color: cyan;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: fuchsia;
+        top: 0px;
+        left: 90vw;
+    }
+    50%{
+        background-color: purple;
+        top: 400px;
+        left: 90vw;
+    }
+    75%{
+        background-color: orange;
+        left: 0px;
+        top: 400px;
+    }
+    100%{
+        background-color: greenyellow;
+        top: 0px;
+        left: 0px;
+    }
+}
